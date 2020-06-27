@@ -2,17 +2,17 @@
 exports.seed = async function(knex) {
   await knex('projects').insert([
     {
-      name: "Ronda Rousey",
+      project_name: "Ronda Rousey",
       description: "Fight",
       completed: false
     },
     {
-      name: "Eating Project",
+      project_name: "Eating Project",
       description: "Eating video prank",
       completed: false
     },
     {
-      name: "Basketball",
+      project_name: "Basketball",
       description: "Basketball game",
       completed: false
     }
